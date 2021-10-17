@@ -1,15 +1,13 @@
-/* body {
+ body {
   direction: rtl;
-}
+  background-color:#F8F9FA;
 
+}
 .navbar {
   box-shadow: 1px 2px 5px #ebebeb;
+  font-family: 'Scheherazade New', serif;
+  color:rgba(0, 0, 0, 0.55);
 }
-.card {
-  display: inline-block;
-  margin-left: 2%;
-  margin-top: 5%;
-} */
-
-/* #logo {
-} */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
