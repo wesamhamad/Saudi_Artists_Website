@@ -11,3 +11,17 @@
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+
+.carousel img {
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #000000;
+    border-color: #000000;
+}
