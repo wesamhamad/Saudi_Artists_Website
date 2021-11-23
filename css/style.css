@@ -152,15 +152,23 @@ ul li:hover > ul {
   display: block;
   height: auto;
 }
-
 footer{
   background-color: #ebebeb;
-  text-align: none;
+  text-align: center;
+}
+footer h5{
+  font-weight: 600 ;
+  color:#131414;
+  padding-bottom: 10px;
 }
 .fab,.far{
 font-size: 30px;
 margin-left: 4px;
 color: gray; 
+}
+footer a{
+  color: #212529;
+  text-decoration: none;
 }
 
 /*new*/
