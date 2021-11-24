@@ -1,0 +1,130 @@
+.support {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    color: #505050;
+}
+
+.heading hr {
+    box-shadow: 4px 4px 6px #646668;
+    width: 90%;
+    position: relative;
+    right: 5%;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 450px) {
+    h1.heading {
+        font-size: 3.55em;
+    }
+}
+
+@media (min-width: 760px) {
+    h1.heading {
+        font-size: 3.05em;
+    }
+}
+
+@media (min-width: 900px) {
+    h1.heading {
+        font-size: 3.25em;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.card {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.25s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+/* from here the css for buttons */
+#myBtn1{
+    border:none;
+    background-color: white;
+    transform: translate(90%, -180%);/*left right-up down*/
+    color: #da9c28;
+}
+#myBtn2{
+    border:none;
+    background-color: white;
+    transform: translate(20%, -180%);/*left right-up down*/
+    color: #da9c28;
+}
+
+#myBtn3{
+    border:none;
+    background-color: white;
+    transform: translate(90%, -180%);/*left right-up down*/
+    color: #da9c28;
+}
+/* until here */
+
+.btn-link:hover , #myBtn1:hover , #myBtn2:hover , #myBtn3:hover {
+    color: #8a5b06;
+}
+
+.img-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.25s ease;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: left;
+    color: #505050 !important;
+    text-decoration: none !important;
+    font-size: 0.90em;
+}
+
+
+.card-read-more {
+    border-top: 1px solid #d4d4d4;
+}
+
+.card-read-more a {
+    text-decoration: none !important;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #da9c28;
+}
+
+.content h4 {
+    text-align: center;
+    font-family: "Lateef", cursive;
+    font-weight: 700;
+    font-size: 300%;
+}
+
+.content p {
+    text-align: right;
+    font-size: 115%;
+    line-height: 170%;
+}

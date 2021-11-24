@@ -1,0 +1,37 @@
+
+/* from here the css for navbar */
+.navdrop {
+    width: 12em;
+    transform:translate(-145%);
+}
+
+ ul  {
+ list-style: none;}
+
+.navdrop a{
+  color:rgb(153, 93, 93);
+  text-align: right;
+}
+
+#menu1{
+    transform:translate(80%,-100%);
+
+  }
+#menu2{
+    transform:translate(160%,-200%);
+  }
+
+#menu3{
+    transform:translate(160%,-450%);
+  }
+
+#menu5{
+    transform:translate(0%,0%);
+    
+}
+
+.artistlist{
+    margin-top:20%;
+}
+
+/* until here all css for navbar */
