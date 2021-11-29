@@ -136,3 +136,16 @@
         cursor: pointer;
 
     }
+  #textCentered{
+            text-align: center; 
+            position: absolute;
+            top: 30%;
+            left:50%;
+            transform: translate(-50%);
+        }
+        #textCentered h1{
+            font-size: 3rem;
+            top: 50%;
+            left:50%;
+          
+        }
