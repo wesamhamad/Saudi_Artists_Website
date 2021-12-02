@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  background-color: #f8f8f8;
+}
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: black;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.Gcontainer {
+  display: flex !important;
+  background-color: black !important;
+}
+
+.cardSize {
+  flex: 45% !important;
+}
+
+.cardContent {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  margin-right: 40px !important;
+  margin-left: 40px !important;
+  padding: 20px !important;
+  background-color: black !important;
+}
+
+.numberLine {
+  width: 100px !important;
+  height: 1px;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  background-color: white;
+}
+
+.galleryContent {
+  color: #ffffff;
+  font-family: Noto Sans Arabic;
+  font-weight: 100;
+}
+
+.Formatnumbers {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: Noto Sans Arabic;
+  font-weight: 100;
+}
+
+.Galleryname {
+  color: #ffffff;
+  font-family: Noto Sans Arabic;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.locLogo {
+  color: #fff;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.loctext {
+  text-decoration: none;
+  color: white;
+  font-family: Noto Sans Arabic !important;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.slideSize {
+  flex: 50% !important;
+}

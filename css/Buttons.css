@@ -1,0 +1,28 @@
+/* from here the css for buttons */
+#myBtn1{
+    border:none;
+    background-color: white;
+    transform: translate(450%, -180%);/*left right-up down*/
+    color: #da9c28;
+  }
+    #myBtn2{
+      border:none;
+      background-color: white;
+      transform: translate(450%, -165%);/*left right-up down*/
+      color: #da9c28;
+    }
+    
+    #myBtn3{
+      border:none;
+      background-color: white;
+      transform: translate(450%, -180%) !important ;/*left right-up down*/ 
+      color: #da9c28;
+    }
+    
+    
+    .btn-link:hover , #myBtn1:hover , #myBtn2:hover , #myBtn3:hover {
+      color: #8a5b06;
+    }
+    /* until here */
+
+   

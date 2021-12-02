@@ -1,0 +1,101 @@
+#register_form h1 {
+  text-align: center;
+}
+
+body {
+  background-size: 150%;
+  color: rgb(20, 17, 17);
+  font-family: Helvetica;
+}
+
+#register_form {
+  border-radius: 0.2rem;
+  background-color: #fff;
+  padding: 0.1rem 2rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  width: 50%;
+  transform: translate(-52%, 25%);
+}
+
+#register_form input {
+  width: 100%;
+  border-width: 0 0 2px 0;
+  border-bottom: 2px solid #ccc;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+.form_error span {
+  width: 80%;
+  height: 35px;
+  text-align: right;
+  color: #d83d5a;
+}
+.form_error input {
+  border: 1px solid #d83d5a;
+}
+
+#reg_btn {
+  background: #e57b5c;
+  color: #fff;
+  margin-top: 0;
+  text-transform: uppercase;
+  padding: 0.6rem 3rem;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+  display: inline-block;
+  margin-top: 1rem;
+  float: right;
+}
+
+.fieldset {
+  /* border-radius: 0.2rem; */
+  color: rgb(253, 253, 253);
+  padding: 0.1rem 2rem;
+  border: none;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  width: 110%;
+  height: 30%;
+  position: relative;
+  top: 3%;
+  left: 5%;
+  text-align: right;
+  background-image: url("https://b.top4top.io/p_2152xnc5q1.png");
+}
+
+.form-group_title {
+  color: #e57b5c;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+
+.fieldset a {
+  text-transform: uppercase;
+  padding: 0.6rem 3rem;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration-line: none;
+}
+
+.contain {
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(8, 8, 8, 0.24);
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#reg_btn:hover {
+  background: #ec9f88;
+}

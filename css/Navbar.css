@@ -1,0 +1,42 @@
+.Newdrop-down {
+  position: relative;
+  display: inline-block;
+}
+
+.Newdrop-down-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+#Artists {
+  min-width: 450px;
+}
+#Gallery {
+  min-width: 300px;
+}
+
+.Newdrop-down-content a {
+  color: rgb(184, 156, 120);
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+.Newdrop-down-content a:hover {
+  background-color: #ddd;
+}
+
+.Newdrop-down:hover .Newdrop-down-content {
+  display: block;
+}
+
+.Newdrop-down:hover {
+  background-color: #ddd;
+}
+
+.first {
+  transform: translate(-250%);
+}
